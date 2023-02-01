@@ -1,5 +1,4 @@
 FROM golang:alpine3.15 as builder
-RUN go get github.com/letsencrypt/unbound_exporter
 RUN go install github.com/letsencrypt/unbound_exporter@latest
 RUN which unbound_exporter
 
