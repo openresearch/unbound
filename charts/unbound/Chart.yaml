@@ -5,9 +5,10 @@ name: unbound
 version: 0.0.7
 appVersion: 1.17.1
 sources:
+- https://github.com/openresearch/unbound/
 - https://github.com/pixelfederation/unbound/
 - http://unbound.nlnetlabs.nl/svn/
 - https://github.com/kubernetes/contrib/tree/master/exec-healthz
 maintainers:
-- name: Tomas Hulata
-  email: thulata@pixelfederation.com
+- name: Philipp Schmid
+  email: philipp.schmid@openresearch.com
