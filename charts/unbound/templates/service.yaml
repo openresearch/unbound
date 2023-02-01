@@ -11,6 +11,7 @@ metadata:
     {{- with .Values.service.labels }}
       {{- toYaml . | nindent 4 }}
     {{- end }}
+  annotations:
     {{- with .Values.service.annotations }}
       {{- toYaml . | nindent 4 }}
     {{- end }}
