@@ -3,51 +3,20 @@ entries:
   unbound:
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2023-01-24T23:08:03.969462143Z"
+    created: "2023-02-01T10:46:58.220299724Z"
     description: Unbound is a fast caching DNS resolver
-    digest: 6b65a94cf055a52c4db745710798a74297904c189fbe9c70529522c82e3c3c4a
+    digest: 086275cd62af55f7a60b1a586447f598953b1f1995efb193a1ad70209d2e5ede
     home: https://www.unbound.net/
     maintainers:
-    - email: thulata@pixelfederation.com
-      name: Tomas Hulata
+    - email: philipp.schmid@openresearch.com
+      name: Philipp Schmid
     name: unbound
     sources:
+    - https://github.com/openresearch/unbound/
     - https://github.com/pixelfederation/unbound/
     - http://unbound.nlnetlabs.nl/svn/
     - https://github.com/kubernetes/contrib/tree/master/exec-healthz
     urls:
-    - https://github.com/pixelfederation/unbound/releases/download/unbound-0.0.7/unbound-0.0.7.tgz
-    version: 0.0.7
-  - apiVersion: v1
-    appVersion: 0.0.1
-    created: "2022-03-07T22:31:53.505723755Z"
-    description: Unbound is a fast caching DNS resolver
-    digest: 9e525784fcc4695e815980c1268f0a7863956110a548594713bdd160d02882c9
-    home: https://www.unbound.net/
-    maintainers:
-    - email: thulata@pixelfederation.com
-      name: Tomas Hulata
-    name: unbound
-    sources:
-    - http://unbound.nlnetlabs.nl/svn/
-    - https://github.com/kubernetes/contrib/tree/master/exec-healthz
-    urls:
-    - https://github.com/pixelfederation/unbound/releases/download/unbound-0.0.6/unbound-0.0.6.tgz
-    version: 0.0.6
-  - apiVersion: v1
-    appVersion: 0.0.1
-    created: "2022-01-20T11:24:37.886637807Z"
-    description: Unbound is a fast caching DNS resolver
-    digest: cad1ea5c384523cb7646f78ebf275180677b1dd9f08e71437b641381549d0d68
-    home: https://www.unbound.net/
-    maintainers:
-    - email: thulata@pixelfederation.com
-      name: Tomas Hulata
-    name: unbound
-    sources:
-    - http://unbound.nlnetlabs.nl/svn/
-    - https://github.com/kubernetes/contrib/tree/master/exec-healthz
-    urls:
-    - https://github.com/pixelfederation/unbound/releases/download/unbound-0.0.5/unbound-0.0.5.tgz
-    version: 0.0.5
-generated: "2023-01-24T23:08:03.969471443Z"
+    - https://github.com/openresearch/unbound/releases/download/unbound-0.0.8/unbound-0.0.8.tgz
+    version: 0.0.8
+generated: "2023-02-01T10:46:58.220304824Z"
