@@ -1,8 +1,8 @@
 containers:
   unbound:
     image:
-      repository: ghcr.io/pixelfederation/unbound
-      tag: v1.17.1_0
+      repository: ghcr.io/openresearch/unbound
+      tag: v1.17.1_2
       pullPolicy: IfNotPresent
     resources:
       requests:
