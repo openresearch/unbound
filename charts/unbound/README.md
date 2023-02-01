@@ -12,8 +12,8 @@
 The chart can be installed as follows:
 
 ```console
-$ helm repo add unbound https://pixelfederation.github.io/unbound
-$ helm --namespace=unbound install unbound pixelfederation/unbound
+$ helm repo add unbound https://openresearch.github.io/unbound
+$ helm --namespace=unbound install unbound openresearch/unbound
 ```
 
 To uninstall/delete the `unbound` deployment:
@@ -32,5 +32,5 @@ See [man](https://www.nlnetlabs.nl/documentation/unbound/unbound.conf/) and conf
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
 
 ```console
-$ helm install unbound pixelfederation/unbound -f values.yaml
+$ helm install unbound openresearch/unbound -f values.yaml
 ```

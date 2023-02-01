@@ -2,6 +2,8 @@
 
 ## Maintainer
 
-- Tomas Hulata - PIXELFEDERATION s.r.o.
+- Philipp Schmid - OpenResearch GmbH
 
 ## Contributors
+
+- Tomas Hulata - PIXELFEDERATION s.r.o.
